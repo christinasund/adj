@@ -33,8 +33,6 @@
 
 /* Begin PBXFileReference section */
 		68EFE042ED58736163CA1A62 /* Pods_TealiumAdjustExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TealiumAdjustExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		75300AC1E6A87B857184127B /* Pods-TealiumAdjustExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TealiumAdjustExample.debug.xcconfig"; path = "Target Support Files/Pods-TealiumAdjustExample/Pods-TealiumAdjustExample.debug.xcconfig"; sourceTree = "<group>"; };
-		ABBDFE8DC1FA068A5BE1EDCD /* Pods-TealiumAdjustExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TealiumAdjustExample.release.xcconfig"; path = "Target Support Files/Pods-TealiumAdjustExample/Pods-TealiumAdjustExample.release.xcconfig"; sourceTree = "<group>"; };
 		CF5ABABA25DC9A1900FEB1D6 /* AdjustSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdjustSdk.framework; path = Carthage/Build/iOS/AdjustSdk.framework; sourceTree = "<group>"; };
 		CF5ABABB25DC9A1900FEB1D6 /* TealiumRemoteCommands.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TealiumRemoteCommands.framework; path = Carthage/Build/iOS/TealiumRemoteCommands.framework; sourceTree = "<group>"; };
 		CF5ABABC25DC9A1900FEB1D6 /* TealiumCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TealiumCore.framework; path = Carthage/Build/iOS/TealiumCore.framework; sourceTree = "<group>"; };
@@ -84,15 +82,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2715FAC3A3DCF34CDA2F8E82 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				75300AC1E6A87B857184127B /* Pods-TealiumAdjustExample.debug.xcconfig */,
-				ABBDFE8DC1FA068A5BE1EDCD /* Pods-TealiumAdjustExample.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		A58A88E832C1A6F37FFAC0E1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,7 +107,6 @@
 				CFEBE0C125D70593006D3574 /* TealiumAdjustExample */,
 				CFEBE0C025D70593006D3574 /* Products */,
 				A58A88E832C1A6F37FFAC0E1 /* Frameworks */,
-				2715FAC3A3DCF34CDA2F8E82 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -430,7 +418,6 @@
 		};
 		CFEBE0CF25D70594006D3574 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75300AC1E6A87B857184127B /* Pods-TealiumAdjustExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,7 +448,6 @@
 		};
 		CFEBE0D025D70594006D3574 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABBDFE8DC1FA068A5BE1EDCD /* Pods-TealiumAdjustExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
