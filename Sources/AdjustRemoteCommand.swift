@@ -9,7 +9,7 @@ import os
 import Foundation
 #if canImport(Adjust)
 import Adjust
-#if canImport(AdjustSdk)
+#else
 import AdjustSdk
 #endif
 #if COCOAPODS
