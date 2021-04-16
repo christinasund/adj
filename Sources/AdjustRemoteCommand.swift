@@ -334,7 +334,7 @@ fileprivate extension ADJLogLevel {
             return
         }
         switch logLevel {
-        case "verboose":
+        case "verbose":
             self = ADJLogLevelVerbose
         case "debug":
             self = ADJLogLevelDebug
