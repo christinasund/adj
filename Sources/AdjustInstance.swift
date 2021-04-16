@@ -8,7 +8,7 @@
 import Foundation
 #if canImport(Adjust)
 import Adjust
-#else
+#if canImport(AdjustSdk)
 import AdjustSdk
 #endif
 
